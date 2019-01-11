@@ -3,14 +3,22 @@ body {
 }
 
 #title {
+	color: #fdbb30; 
+	text-align: center;
 	
+	display:flex;
+    align-items: center;
+    justify-content: center;
+
 	background-color: #00245d;
 	padding-left: 10pt;
 	padding-right: 10pt;
+	width: 100%;
+	height: 100pt;
 }
 
 #title h1 {
-	color: #fdbb30; 
+	vertical-align: middle;
 }
 
 #siding {
