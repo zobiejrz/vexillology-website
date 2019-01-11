@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+}
+
+#title {
+	color: #fdbb30; 
+	background-color: #00245d;
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+#siding {
+
+}
+
+#nav {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
