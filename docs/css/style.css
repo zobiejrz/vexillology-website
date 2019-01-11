@@ -3,10 +3,14 @@ body {
 }
 
 #title {
-	color: #fdbb30; 
+	
 	background-color: #00245d;
 	padding-left: 10pt;
 	padding-right: 10pt;
+}
+
+#title h1 {
+	color: #fdbb30; 
 }
 
 #siding {
