@@ -74,6 +74,12 @@ body {
 	float: right;
 }
 
+h3 {
+	display: inline;
+	color: #fdbb30;
+}
+
+/* this is for image dropdown */
 img {
 
 	border: transparent;
