@@ -35,7 +35,15 @@ body {
 }
 
 #nav {
-
+		border-top: 3px solid #fdbb30;
+		background-color: #00245d;
+		text-align: center;
+		width: 60%;
+		top: 0;
+		color: #fdbb30;
+		text-decoration: none; 
+		float: center;
+	  
 }
 
 #content {
