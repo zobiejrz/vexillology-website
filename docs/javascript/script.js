@@ -1,5 +1,3 @@
-var totalMetaRows = 0
-
 function displayMetaData(state, row)
 {
 
@@ -15,34 +13,19 @@ function displayMetaData(state, row)
 
 function hideAllMetaData()
 {
-	var i;
 
-	// One Variable for each row
-	var metaRowStates0 = document.getElementsByClassName("row-0");
-	var metaRowStates1 = document.getElementsByClassName("row-1");
-	var metaRowStates2 = document.getElementsByClassName("row-2");
+	var metaRows;
 
-
-	// One loop for each variable
-	for(i=0; i < metaRowStates0.length; i++)
+	for(var i = 0; i < totalMetaRows; i++)
 	{
+		var rowName = "row-" + i
 
-		metaRowStates0[i].style.display = "none"
+		metaRows = document.getElementsByClassName(rowName)
 
-	}
-
-	for(i=0; i < metaRowStates1.length; i++)
-	{
-
-		metaRowStates1[i].style.display = "none"
-		
-	}
-
-	for(i=0; i < metaRowStates2.length; i++)
-	{
-
-		metaRowStates2[i].style.display = "none"
-		
+		for(var j = 0; j < metaRows.length; j++)
+		{
+			metaRows[j].style.display = "none"
+		}
 	}
 
 }
