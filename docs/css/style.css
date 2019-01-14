@@ -112,21 +112,8 @@ table {
 	opacity: 1;
 }
 
-/* One class for each */
-.row-0 {
-
-	display: none;
+.row {
+	width: 50%;
 	background-color: aqua;
-}
-
-.row-1 {
-
 	display: none;
-	background-color: aqua;
-}
-
-.row-2 {
-
-	display: none;
-	background-color: aqua;
 }
