@@ -44,7 +44,7 @@ body {
 	top: 0;
 	color: #fdbb30;
 	height: 50pt;
-	   
+	
 }
 
 .inline {
@@ -55,6 +55,9 @@ body {
 	text-decoration: none;
 	text-align: center;
 	padding-top: 10px;
+	top: 0;
+	/* bottom: auto; */
+
 }
 
 
