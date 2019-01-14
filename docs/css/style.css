@@ -43,12 +43,15 @@ body {
 		width: 80%;
 		top: 0;
 		color: #fdbb30;
-		text-decoration: none; 
 	   
 }
 
 .inline {
 	display: inline;
+	margin: 5%;
+	font-size: 30px;
+	padding: 1%;
+	text-decoration: none; 
 }
 
 
