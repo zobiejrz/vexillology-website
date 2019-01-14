@@ -83,37 +83,3 @@ h3 {
 	color: #fdbb30;
 }
 
-/* this is for image dropdown */
-img {
-
-	border: transparent;
-	/* height: 30pt; */
-	/* width: 70pt; */
-}
-
-#container {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-table {
-
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.visible {
-	opacity: 0.5
-}
-
-.visible:hover {
-	border: none;
-	opacity: 1;
-}
-
-.row {
-	width: 50%;
-	background-color: aqua;
-	display: none;
-}
