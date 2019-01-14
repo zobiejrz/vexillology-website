@@ -38,13 +38,19 @@ body {
 		border-top: 3px solid #fdbb30;
 		background-color: #00245d;
 		text-align: center;
-		width: 60%;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
 		top: 0;
 		color: #fdbb30;
 		text-decoration: none; 
-		float: center;
-	  
+	   
 }
+
+.inline {
+	display: inline;
+}
+
 
 #content {
 
