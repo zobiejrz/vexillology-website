@@ -21,8 +21,3 @@ body {
 	position: sticky;
 	top: 0;
 }
-
-#content {
-	overflow-y: unset;
-}
-
