@@ -32,6 +32,18 @@ body {
 	color: #00245d;
 }
 
+.left {
+	height: 100px;
+	width: 100px;
+	left: 0;
+}
+
+.right {
+	height: 100px;
+	width: 100px;
+	right: 0;
+}
+
 #easter-egg {
 	display: none;
 	float: right;
@@ -46,9 +58,10 @@ body {
 	width: 60vw;
 	top: 0;
 	color: #fdbb30;
-	height: 50pt;
-	
+	height: 50pt;	
 }
+
+
 
 #nav a:link {
 	text-decoration: none;
