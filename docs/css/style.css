@@ -13,11 +13,9 @@ body {
 #title {
 	color: #fdbb30; 
 	text-align: center;
-	
 	display:flex;
-    align-items: center;
-    justify-content: center;
-
+	align-items: center;
+	justify-content: center;
 	background-color: #00245d;
 	padding-left: 10pt;
 	padding-right: 10pt;
@@ -45,6 +43,25 @@ body {
 	color: #fdbb30;
 	height: 50pt;
 	
+}
+
+#nav a:link {
+	text-decoration: none;
+	color: #fdbb30;
+}
+
+#nav a:visited {
+	text-decoration: none;
+	color: #fdbb30;
+}
+
+#nav a:active {
+	text-decoration: none;
+	color: #fdbb30;
+}
+
+#nav a:hover {
+	text-decoration: underline;
 }
 
 .inline {
