@@ -2,7 +2,7 @@ html
 {
 	/* height: 100%; */
 	background-color: rgb(228, 228, 228);
-	width: 100%
+	/* width: 100% */
 }
 
 body {
@@ -29,7 +29,12 @@ body {
 }
 
 #siding {
+	color: #00245d;
+}
 
+#easter-egg {
+	display: none;
+	float: right;
 }
 
 #nav {
@@ -83,11 +88,11 @@ body {
 
 #content {
 	/* background-color: #00245d */
-	
+	color: #00245d;
 }
 
 #footer {
-
+	color: #00245d;
 }
 
 .left {
