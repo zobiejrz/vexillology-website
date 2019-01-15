@@ -4,6 +4,7 @@ function displayMetaData(element)
 	var currentElement = metaRows[element]
 
 	currentElement.style.display = "block"
+	currentElement.style.visibility = "visible"
 }
 
 function toggleMetaData(element)
@@ -15,7 +16,8 @@ function toggleMetaData(element)
 		for(var i = 0; i < metaRows.length; i++)
 		{
 			var currentElement = metaRows[i]
-			currentElement.style.display = "none"	
+			currentElement.style.display = "none"
+			currentElement.style.visibilty = "none"	
 		}
 		displayMetaData(element)
 	}
@@ -25,7 +27,13 @@ function toggleMetaData(element)
 		{
 			var currentElement = metaRows[i]
 			currentElement.style.display = "none"	
+			currentElement.style.visibility = "hidden"
 		}
 	}
 
 }
+
+
+$("#button").click(function() {
+	$('.transform').toggleClass('transform-active');
+  });
