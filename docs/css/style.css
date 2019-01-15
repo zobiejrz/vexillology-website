@@ -157,4 +157,8 @@ td {
 	display: none;
 	text-align: center;
 	padding: 5pt;
+	visibility: none;
+	transition: ease-in;
+	opacity: 1;
+	visibility: 5s;
 }
