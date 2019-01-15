@@ -2,7 +2,7 @@
 #L img{
     margin-left: 0%;
     width: 20%; 
-	height: 20%;
+	height: 100vh;
 	float: left;
 }
 
@@ -14,10 +14,15 @@ body {
 #R img{
 	margin-right: 0%;
 	width: 20%;
-	height: 20%;
+	height: 100vh;
 	float: right;
 }
 .siding{
 	position: sticky;
 	top: 0;
 }
+
+#content {
+	overflow-y: unset;
+}
+
