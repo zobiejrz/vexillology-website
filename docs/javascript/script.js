@@ -1,24 +1,31 @@
-function displayMetaData(state, element)
+function displayMetaData(element)
 {
+	var metaRows = document.getElementsByClassName("row")
+	var currentElement = metaRows[element]
 
-	var metaRowStates = document.getElementsByClassName("row")
-
-	metaRowStates[element].style.display = "block"
-
-
-	// Apply triangle using state
+	currentElement.style.display = "block"
 }
 
-function hideAllMetaData()
+function toggleMetaData(element)
 {
+	var metaRows = document.getElementsByClassName("row")
 
-	var metaRows;
-
-	metaRows = document.getElementsByClassName("row")
-
-	for(var j = 0; j < metaRows.length; j++)
+	if (metaRows[element].style.display != "block")
 	{
-		metaRows[j].style.display = "none"
+		for(var i = 0; i < metaRows.length; i++)
+		{
+			var currentElement = metaRows[i]
+			currentElement.style.display = "none"	
+		}
+		displayMetaData(element)
+	}
+	else
+	{
+		for(var i = 0; i < metaRows.length; i++)
+		{
+			var currentElement = metaRows[i]
+			currentElement.style.display = "none"	
+		}
 	}
 
 }
