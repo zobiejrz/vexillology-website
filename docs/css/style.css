@@ -2,7 +2,7 @@ html
 {
 	/* height: 100%; */
 	background-color: rgb(228, 228, 228);
-	/* width: 100% */
+	width: 100%
 }
 
 body {
@@ -62,10 +62,9 @@ body {
 	width: 60vw;
 	top: 0;
 	color: #fdbb30;
-	height: 50pt;	
+	height: 50pt;
+	
 }
-
-
 
 #nav a:link {
 	text-decoration: none;
@@ -105,7 +104,7 @@ body {
 
 #content {
 	/* background-color: #00245d */
-	color: #00245d;
+	
 }
 
 #footer {
@@ -185,3 +184,5 @@ td {
 	text-align: center;
 	color: white;
   }
+}
+
