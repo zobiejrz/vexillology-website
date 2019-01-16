@@ -179,10 +179,22 @@ td {
 	left: 16px;
   }
 
-  .container {
+.container {
 	position: relative;
 	text-align: center;
 	color: white;
-  }
 }
 
+.image-text {
+	position: relative;
+	text-align: center;
+}
+
+
+.MITCHELLLLLLLLLLLLLLLL {
+	position: absolute;
+	right: 57%;
+	left: 43%;
+	top: 420pt;
+	color: black;
+}
