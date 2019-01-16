@@ -8,6 +8,8 @@ html
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+	
 }
 
 #title {
@@ -36,12 +38,14 @@ body {
 	height: 100px;
 	width: 100px;
 	left: 0;
+	padding-right: 50px;
 }
 
 .right {
 	height: 100px;
 	width: 100px;
 	right: 0;
+	padding-left: 30px;
 }
 
 #easter-egg {
@@ -105,7 +109,7 @@ body {
 }
 
 #footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -119,13 +123,7 @@ body {
 	
 }
 
-.left {
-	float: left;
-}
 
-.right {
-	float: right;
-}
 
 h3 {
 	display: inline;
@@ -175,3 +173,15 @@ td {
 	opacity: 1;
 	visibility: 5s;
 }
+
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+  }
+
+  .container {
+	position: relative;
+	text-align: center;
+	color: white;
+  }
