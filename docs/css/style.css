@@ -197,12 +197,13 @@ td {
 
 
 .subtitle {
-	color: black;
-	background-color: rgba(0, 0, 0, 0.082);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.609);
 	font-size: 12pt;
 	height: 14pt;
 	width: 200px;
-	margin-top: -14pt;
+	margin-top: -20pt;
+	position: absolute
 }
 
 #image
