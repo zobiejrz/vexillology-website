@@ -1,7 +1,8 @@
 html
 {
 	/* height: 100%; */
-	background-color: #303030;
+	/* background-color: #303030; */
+	background-color: rgb(228, 228, 228);
 	width: 100%
 }
 
@@ -110,11 +111,13 @@ body {
 	padding-top: 5pt;
 }
 
-#footer {
-	/* position: absolute; */
-	/* bottom: 0; */
-	/* left: 0; */
-	/* right: 0; */
+/* #footer {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
 	width: 60vw;
 	margin-left: auto;
 	margin-right: auto;
@@ -123,7 +126,7 @@ body {
 	height: 30px;
 	display: block;
 	
-}
+} */
 
 
 
