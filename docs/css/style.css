@@ -196,10 +196,17 @@ td {
 }
 
 
-.MITCHELLLLLLLLLLLLLLLL {
-	position: absolute;
-	right: 57%;
-	left: 43%;
-	top: 420pt;
+.subtitle {
 	color: black;
+	background-color: rgba(0, 0, 0, 0.082);
+	font-size: 12pt;
+	height: 14pt;
+	width: 200px;
+	margin-top: -14pt;
+}
+
+#image
+{
+	width: 200px;
+	height: auto;
 }
