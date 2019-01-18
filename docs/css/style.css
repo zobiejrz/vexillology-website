@@ -170,8 +170,8 @@ td {
 }
 
 .row {
-	color: white;
-	background-color: rgb(124, 124, 124);
+	color: black;
+	background-color: rgb(190, 190, 190);
 	display: none;
 	text-align: center;
 	padding: 5pt;
@@ -204,13 +204,25 @@ td {
 	background-color: rgba(0, 0, 0, 0.609);
 	font-size: 12pt;
 	height: 14pt;
-	width: 200px;
+	width: 200pt;
 	margin-top: -20pt;
 	position: absolute
 }
 
-#image
+/* #image
 {
 	width: 200px;
 	height: auto;
+} */
+
+#base-row img
+{
+	width: 200pt;
+	height: 100pt;
+}
+
+.row img
+{
+	width: 400pt;
+	height: 200pt;
 }
