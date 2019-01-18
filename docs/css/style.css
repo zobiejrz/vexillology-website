@@ -1,7 +1,5 @@
 html
 {
-	/* height: 100%; */
-	/* background-color: #303030; */
 	background-color: rgb(228, 228, 228);
 	width: 100%
 }
@@ -31,10 +29,6 @@ body {
 	vertical-align: middle;
 	font-size: 55pt;
 }
-
-/* #siding {
-	color: #00245d;
-} */
 
 .siding {
 	background-color: rgb(228, 228, 228);
@@ -122,8 +116,6 @@ body {
 	bottom: 0;
 	color: inherit;
 	text-decoration: inherit;
-	/* bottom: auto; */
-
 }
 
 #nav .inline
@@ -138,31 +130,10 @@ body {
 	padding-top: 5pt;
 }
 
-/* #footer {
-
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
-	width: 60vw;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #303030;
-	text-align: center;
-	height: 30px;
-	display: block;
-	
-} */
-
-
-
 h3 {
 	display: inline;
 	color: #fdbb30;
 }
-
-/* this is for image dropdown */
 
 #container {
 	width: 50%;
@@ -235,12 +206,6 @@ td {
 	margin-top: -20pt;
 	position: absolute
 }
-
-/* #image
-{
-	width: 200px;
-	height: auto;
-} */
 
 #base-row img
 {
