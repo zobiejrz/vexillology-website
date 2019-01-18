@@ -148,25 +148,6 @@ h3 {
 	
 }
 
-/* table {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-td {
-	padding: 4pt;
-	padding-top: 5pt;
-} */
-
-.visible {
-	opacity: 0.5
-}
-
-.visible:hover {
-	border: none;
-	opacity: 1;
-}
-
 .row {
 	color: black;
 	background-color: rgb(190, 190, 190);
